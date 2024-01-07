@@ -43,9 +43,22 @@ tests
 11. npm i -g allure-commandline
 12. allure serve reports
 
-## github Commands
+## github first time Commands
 1. git init
 2. git add . 
+3. git commit -m "first commit"
+4. git branch -M main
+5. git remote add origin "Created New git path" 
+6. git push -u origin main
+
+## Afterward git push commands
+
+1. git add "Name of folder" or git add .
+2. git commit -m "Message"
+3. git pull
+4. git push
+
+
 
 
 
