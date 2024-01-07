@@ -29,11 +29,14 @@ tests
 2. pip freeze >requirement.text
 3. pip install -r requirement.text  
 4. pip install pytest 
-5. pip install pytest-html 
+5. pip install requests 
+6. pip install pytest-html 
 6. pip install faker 
 7. pip install openpyxl 
 8. pip install xdist
 8. pip install jsonschema
+9. pip install fixture
+
 
 # To Install Allure Reports Command:-
 
@@ -42,6 +45,20 @@ tests
 10. npm --version  
 11. npm i -g allure-commandline
 12. allure serve reports
+
+## To execute the HTML report command
+
+pytest FileName.py --html=report.html
+
+## To execute the allure report command
+
+pytest FileName.py --alluredir=reports
+allure serve reports
+
+## Command to execute 
+
+ pytest FileName.py -s -v 
+
 
 ## github first time Commands
 1. git init
